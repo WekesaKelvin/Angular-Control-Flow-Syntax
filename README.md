@@ -16,9 +16,6 @@ Coco Motors is a modern vehicle management and shopping cart application built w
   - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -31,7 +28,7 @@ This project simplifies the development of dynamic UI components by using Angula
 - 🚗 Vehicle Management: Browse and view detailed vehicle information, including name, classification, price, crew, passengers, and cargo capacity.
 - 🛒 Shopping Cart: Add vehicles to a cart, update quantities, and calculate subtotals, delivery fees, taxes, and total prices.
 - 🎨 Modern UI: Styled with Bootstrap 5 and custom CSS, featuring animations for a polished user experience.
-- 🧠 Control Flow Syntax: Demonstrates Angular's modern `@if`, `@for`, and `@switch` for declarative template logic.
+- Control Flow Syntax: Demonstrates Angular's modern `@if`, `@for`, and `@switch` for declarative template logic.
 - 🛠️ Testing: Comprehensive unit tests using Jest to ensure reliability.
 - 📱 Responsive Design: Fully responsive layout for seamless use on desktop and mobile devices.
 
@@ -59,7 +56,7 @@ Ensure you have the following installed:
 Set up Coco Motors by following these steps:
 
 1. Clone the repository:
- git clone https://github.com/yourusername/coco-motors.git
+ git clone https:(https://github.com/WekesaKelvin/Angular-Control-Flow-Syntax/)
 
 2. Navigate to the project directory:
    cd coco-motors
