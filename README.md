@@ -70,8 +70,8 @@ Run the project locally:
 
 1. Start the development server:
 
-### ng serve
+       ### ng serve
 
 2.Run test
 
-### ng test
+      ### ng test
