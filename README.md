@@ -63,8 +63,8 @@ Set up Coco Motors by following these steps:
    cd coco-Motors
    
 ## Install Dependencies
-   npm install
-   npm install bootstrap
+     npm install
+     npm install bootstrap
 
 ## Usage
 
