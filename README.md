@@ -64,6 +64,8 @@ Set up Coco Motors by following these steps:
 3. Install the dependencies:
 npm install
 
+npm install bootstrap
+
 ## Usage
 
 Run the project locally:
