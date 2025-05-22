@@ -1,7 +1,6 @@
 import { Component, Input, computed, inject, signal } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-
 import { CartItem } from '../cart';
 import { CartService } from '../cart.service';
 

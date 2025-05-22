@@ -1,128 +1,104 @@
-.card {
-  border-radius: 8px;
-  background-image: url('/assets/aston-martindb12-jpg.jpg'); 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 30px auto;
-  max-width: 600px;
-  background-color: #ffffff;
-  opacity: 0;
-  animation: fadeIn 1s ease-in-out forwards;
+.hero-container {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.card-header {
-  background-color: #f8f9fa;
+.overlay {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 60px 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.text-content {
+  z-index: 2;
+  position: relative;
+}
+
+.brand-name {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff; 
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8); 
+  animation: fadeInDown 1.2s ease-out;
+}
+
+.welcome-msg {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  animation: fadeInUp 1.2s ease-out 0.4s;
+  animation-fill-mode: backwards;
+}
+
+.tagline {
   font-size: 1.5rem;
+  font-style: italic;
+  color: #ffffff; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+  animation: fadeInUp 1.2s ease-out 0.8s;
+  animation-fill-mode: backwards;
+}
+
+.developer-credit {
+  background-color: #1a1a1a;
+  padding: 20px;
+  font-size: 1rem;
+  color: #ffffff; 
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.developer-credit h3 {
+  margin: 5px 0;
   font-weight: 600;
-  color: #343a40;
-  text-align: center;
-  padding: 15px;
-  border-bottom: 1px solid #dee2e6;
+  color: #ffffff; 
 }
 
-.card-body {
-  padding: 30px;
-}
-
-.img-responsive {
-  max-height: 300px;
-  width: auto;
-  border-radius: 8px;
-  margin: 0 auto;
-  display: block;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  animation: zoomInBounce 1.2s ease-out 0.5s forwards;
-}
-
-.developer-info {
-  margin-top: 20px;
-  color: #495057;
-  opacity: 0;
-  animation: fadeInUp 1s ease-in-out 1s forwards;
-}
-
-.developer-name {
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: #212529;
-  margin: 10px 0;
-}
-
-.developer-handle {
-  font-size: 1.1rem;
-  color: #007bff;
+.developer-credit a {
+  color: #00b7eb;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.developer-handle:hover {
-  color: #0056b3;
-  text-decoration: underline;
+.developer-credit a:hover {
+  color: #ffffff;
 }
 
-.total-row {
-  border-top: 2px solid #dee2e6;
-  padding-top: 10px;
-  font-size: 1.2rem;
-  background-color: #f8f9fa;
-  margin-top: 10px;
-}
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes zoomInBounce {
+@keyframes fadeInDown {
   0% {
     opacity: 0;
-    transform: scale(0.8) translateY(20px);
-  }
-  50% {
-    transform: scale(1.05) translateY(-10px);
+    transform: translateY(-30px);
   }
   100% {
     opacity: 1;
-    transform: scale(1) translateY(0);
+    transform: translateY(0);
   }
 }
 
 @keyframes fadeInUp {
-  from {
+  0% {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(30px);
   }
-  to {
+  100% {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-
-@media (max-width: 576px) {
-  .card {
-    margin: 20px;
-    max-width: 100%;
-  }
-
-  .card-body {
-    padding: 20px;
-  }
-
-  .img-responsive {
-    max-height: 200px;
-  }
-
-  .developer-name {
-    font-size: 1.5rem;
-  }
-
-  .developer-handle {
-    font-size: 1rem;
   }
 }
