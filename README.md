@@ -55,16 +55,16 @@ Ensure you have the following installed:
 
 Set up Coco Motors by following these steps:
 
-1. Clone the repository:
+##  Clone the repository:
  git clone https:(https://github.com/WekesaKelvin/Angular-Control-Flow-Syntax/)
 
-2. Navigate to the project directory:
-   cd coco-motors
+##  Navigate to the project directory:
+   cd Angular-Control-Flow-Syntax
+   cd coco-Motors
    
-3. Install the dependencies:
-npm install
-
-npm install bootstrap
+## Install Dependencies
+   npm install
+   npm install bootstrap
 
 ## Usage
 
