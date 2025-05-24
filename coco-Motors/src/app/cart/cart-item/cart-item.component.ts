@@ -5,7 +5,7 @@ import { CartItem } from '../cart';
 import { CartService } from '../cart.service';
 
 @Component({
-  selector: 'sw-cart-item',
+  selector: 'cart-item',
   standalone: true,
   imports: [DecimalPipe, FormsModule],
   templateUrl: './cart-item.component.html'

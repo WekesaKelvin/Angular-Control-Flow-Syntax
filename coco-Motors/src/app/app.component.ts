@@ -1,7 +1,5 @@
 import { Component, computed, inject } from '@angular/core';
-
 import { CartService } from './cart/cart.service';
-
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({

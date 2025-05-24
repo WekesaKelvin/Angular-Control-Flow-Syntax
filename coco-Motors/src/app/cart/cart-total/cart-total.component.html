@@ -10,14 +10,14 @@
       <div class="row">
         <div class="col-md-4">Subtotal:</div>
         <div class="col-md-4 text-end">
-          Ksh{{subTotal() | number:'1.2-2'}}
+           £ {{subTotal() | number:'1.2-2'}}
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">Delivery:</div>
         @if (deliveryFee()) {
           <div class="col-md-4 text-end"
-          >Ksh{{deliveryFee() | number:'1.2-2'}}</div>
+          > £ {{deliveryFee() | number:'1.2-2'}}</div>
         } @else {
           <div class="col-md-4 text-end"
           >Free</div>
@@ -26,13 +26,13 @@
       <div class="row">
         <div class="col-md-4">Estimated Tax:</div>
         <div class="col-md-4 text-end">
-          Ksh{{tax() | number:'1.2-2'}}
+           £ {{tax() | number:'1.2-2'}}
         </div>
       </div>
       <div class="row">
         <div class="col-md-4"><b>Total:</b></div>
         <div class="col-md-4 text-end">
-          <b>Ksh{{totalPrice() | number:'1.2-2'}}</b>
+          <b>£ {{totalPrice() | number:'1.2-2'}}</b>
         </div>
       </div>
     </div>

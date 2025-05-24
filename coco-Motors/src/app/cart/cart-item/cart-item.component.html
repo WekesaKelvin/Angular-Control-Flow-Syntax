@@ -1,4 +1,4 @@
-@if (cartItem()) {
+@if (cartItem()){
   <div>
     <div class="row mb-2">
       <div class="col-md-2">
@@ -24,11 +24,11 @@
         </select>
       </div>
       <div class="col-md-2 text-end">
-        Ksh {{ exPrice() | number:'1.2-2'}}
+        £ {{ exPrice() | number:'1.2-2'}}
       </div>
       <div class="col-md-2 text-center">
         <button type="button"
-          class="btn btn-warning"
+          class="btn btn-danger"
           aria-label="Close"
           (click)="onRemove()">
           Delete

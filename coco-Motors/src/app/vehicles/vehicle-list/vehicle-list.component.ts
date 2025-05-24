@@ -3,7 +3,7 @@ import { NgClass } from '@angular/common';
 import { VehicleService } from '../vehicle.service';
 
 @Component({
-  selector: 'sw-vehicle-list',
+  selector: 'vehicle-list',
   standalone: true,
   imports: [NgClass],
   templateUrl: './vehicle-list.component.html'

@@ -7,14 +7,14 @@
     <div class="row">
       <div class="col-md-2 fw-bold">Product</div>
       <div class="col-md-2 fw-bold">Class</div>
-      <div class="col-md-2 fw-bold text-center">Price(Ksh)</div>
+      <div class="col-md-2 fw-bold text-center">Price( £ )</div>
       <div class="col-md-2 fw-bold text-center">Quantity</div>
       <div class="col-md-2 fw-bold text-end">Extended Price</div>
     </div>
 
     @for (item of cartItems(); track item) {
     <div>
-      <sw-cart-item [item]='item' />
+      <cart-item [item]='item' />
     </div>
     } @empty {
     No items in cart

@@ -9,7 +9,7 @@
 }
 
 .card-header {
-  background-color: #f8f9fa;
+  background-color: #0077ef;
   font-size: 1.5rem;
   font-weight: 600;
   color: #343a40;
@@ -21,9 +21,15 @@
 .card-body {
   padding: 20px;
 }
+.list-group{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
 
 .list-group-item {
   padding: 12px 15px;
+  font-weight: bold;
   font-size: 1.1rem;
   color: #212529;
   transition: background-color 0.3s ease, transform 0.2s ease;

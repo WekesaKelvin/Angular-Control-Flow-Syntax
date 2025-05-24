@@ -1,6 +1,5 @@
 import { Component, inject } from '@angular/core';
 import { DecimalPipe } from '@angular/common';
-
 import { CartService } from '../cart.service';
 
 @Component({

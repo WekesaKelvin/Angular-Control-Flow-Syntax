@@ -9,7 +9,7 @@ import { CartTotalComponent } from "../cart-total/cart-total.component";
   imports: [CartListComponent, CartTotalComponent],
   template: `
     <div class='row'>
-      <sw-cart-list/>
+      <cart-list/>
     </div>
     <div class='row'>
       @if (!errorMessage) {
