@@ -59,8 +59,8 @@ Set up Coco Motors by following these steps:
  git clone https://github.com/WekesaKelvin/Angular-Control-Flow-Syntax
 
 ##  Navigate to the project directory:
-   cd Angular-Control-Flow-Syntax
-   cd coco-Motors
+    cd Angular-Control-Flow-Syntax
+    cd coco-Motors
    
 ## Install Dependencies
      npm install
@@ -76,4 +76,4 @@ Run the project locally:
 
 2.Run test
 
-      ### ng test
+       ### ng test
