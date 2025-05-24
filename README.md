@@ -56,7 +56,7 @@ Ensure you have the following installed:
 Set up Coco Motors by following these steps:
 
 ##  Clone the repository:
- git clone https:(https://github.com/WekesaKelvin/Angular-Control-Flow-Syntax/)
+ git clone https://github.com/WekesaKelvin/Angular-Control-Flow-Syntax
 
 ##  Navigate to the project directory:
    cd Angular-Control-Flow-Syntax
